@@ -1,0 +1,25 @@
+{
+  "name": "first_contract",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "ts-node ./scripts/compile.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@swc/core": "^1.4.12",
+    "@types/node": "^20.12.4",
+    "ts-node": "^10.9.2",
+    "tslib": "^2.6.2",
+    "typescript": "^5.4.4"
+  },
+  "dependencies": {
+    "@ton-community/func-js": "^0.7.0",
+    "ton-core": "^0.53.0",
+    "ton-crypto": "^3.2.0"
+  },
+  "type": "module"
+}
