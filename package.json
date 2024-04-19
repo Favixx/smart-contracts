@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "compile": "ts-node ./scripts/compile.ts"
+    "compile": "node --loader ts-node/esm ./scripts/compile.ts"
   },
   "author": "",
   "license": "ISC",
@@ -14,7 +14,7 @@
     "@types/node": "^20.12.4",
     "ts-node": "^10.9.2",
     "tslib": "^2.6.2",
-    "typescript": "^5.4.4"
+    "typescript": "^5.4.5"
   },
   "dependencies": {
     "@ton-community/func-js": "^0.7.0",
